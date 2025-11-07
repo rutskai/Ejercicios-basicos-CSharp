@@ -13,7 +13,7 @@ class ejer11
         do
         {
             
-            Console.WriteLine("Introduce un número positivo:");
+            Console.WriteLine("Introduce un número positivo, para salir, uno negativo:");
             num = int.Parse(Console.ReadLine()!);
 
             if(num >= 0){
@@ -26,4 +26,5 @@ class ejer11
         Console.WriteLine($"Has introducido {count} números positivos.");
 
     }
+
 }
