@@ -7,7 +7,7 @@ class ejer14
     public static void MajorNumber()
     {
         int[] numbers = new int[5];
-        Console.Write("Introduce 5 números: ");
+        Console.Write("Introduce 5 números:\n");
         
         for (int i = 0; i < numbers.Length; i++)
         {
@@ -21,4 +21,5 @@ class ejer14
 
        
     }
+
 }
