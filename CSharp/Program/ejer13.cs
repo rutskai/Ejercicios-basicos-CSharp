@@ -10,7 +10,7 @@ class ejer13
         int[] numbers = new int[5];
         int sum = 0;
 
-        Console.Write("Introduce 5 números: ");
+        Console.Write("Introduce 5 números:\n");
 
         for (int i = 0; i < numbers.Length; i++)
         {
@@ -22,4 +22,5 @@ class ejer13
         Console.WriteLine($"\nLa suma total de los números es: {sum}");
        
     }
+
 }
